@@ -1,0 +1,30 @@
+{
+  "name": "@tooltd/pi-models-pricing",
+  "version": "0.1.0",
+  "description": "Pi extension: /models shows price, context, input modalities and thinking levels — sorted free → expensive, sets the model default",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "models",
+    "pricing",
+    "cost",
+    "tui"
+  ],
+  "type": "module",
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tooltd/pi-models-pricing.git"
+  },
+  "homepage": "https://github.com/tooltd/pi-models-pricing#readme",
+  "author": "tooltd"
+}
